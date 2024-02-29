@@ -1,2 +1,0 @@
-// Command to show where gcc looks for system include paths:
-echo "" | gcc -E -Wp, -v -
