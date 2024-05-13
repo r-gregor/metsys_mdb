@@ -98,4 +98,9 @@ sudo ninja -C build install
 python3 -m pip install -U yt-dlp
 python3 -m pip install -U yt-dlp
 ---
+# install windows fonts 20240513
+sudo apt update
+sudo apt-get install ttf-mscorefonts-installer
+sudo fc-cache -f -v
+---
 
