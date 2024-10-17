@@ -1,0 +1,9 @@
+git clone https://github.com/dracula/rofi
+mkdir -p ~/.config/rofi
+cp rofi/theme/config1.rasi ~/.config/rofi/config.rasi
+echo -e "Gregor\nTadeja\nMark" | rofi -dmenu
+cp logout_menu_{dmn,rofi}
+vim logout_menu_rofi 
+rofi -modi drun -show drun &
+---
+
