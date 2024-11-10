@@ -1,0 +1,25 @@
+  948  2024-11-10 14:02:46 sudo pkexec "/usr/sbin/synaptic" "$@" & disown
+  949  2024-11-10 14:15:56 apt install build-essential git cmake cmake-data pkg-config python3-sphinx python3-packaging libuv1-dev libcairo2-dev libxcb1-dev libxcb-util0-dev libxcb-randr0-dev libxcb-composite0-dev python3-xcbgen xcb-proto libxcb-image0-dev libxcb-ewmh-dev libxcb-icccm4-dev
+  950  2024-11-10 14:16:07 sudo apt install build-essential git cmake cmake-data pkg-config python3-sphinx python3-packaging libuv1-dev libcairo2-dev libxcb1-dev libxcb-util0-dev libxcb-randr0-dev libxcb-composite0-dev python3-xcbgen xcb-proto libxcb-image0-dev libxcb-ewmh-dev libxcb-icccm4-dev
+  951  2024-11-10 14:16:36 apt install libxcb-xkb-dev libxcb-xrm-dev libxcb-cursor-dev libasound2-dev libpulse-dev i3-wm libjsoncpp-dev libmpdclient-dev libcurl4-openssl-dev libnl-genl-3-dev
+  952  2024-11-10 14:16:40 sudo apt install libxcb-xkb-dev libxcb-xrm-dev libxcb-cursor-dev libasound2-dev libpulse-dev i3-wm libjsoncpp-dev libmpdclient-dev libcurl4-openssl-dev libnl-genl-3-dev
+  956  2024-11-10 14:18:01 cd sorsi/
+  958  2024-11-10 14:18:21 mkdir polybar_build_20241110
+  959  2024-11-10 14:18:24 cd polybar_build_20241110/
+  961  2024-11-10 14:18:48 cp ~/Downloads/polybar-3.7.2.tar.gz .
+  962  2024-11-10 14:18:53 tar xvzf polybar-3.7.2.tar.gz 
+  963  2024-11-10 14:19:01 cd polybar-3.7.2/
+  964  2024-11-10 14:19:22 mkdir build
+  965  2024-11-10 14:19:25 cd build/
+  966  2024-11-10 14:19:32 cmake ..
+  967  2024-11-10 14:19:51 make -j$(nproc)
+  968  2024-11-10 14:57:33 sudo make install
+  969  2024-11-10 14:57:42 cd ~/.config/
+  970  2024-11-10 14:57:46 mkdir polybar
+  971  2024-11-10 14:57:49 cd polybar
+  972  2024-11-10 14:57:58 cp /etc/polybar/config.ini .
+  973  2024-11-10 14:58:54 polybar bar1
+  975  2024-11-10 14:59:20 vim launch.sh 
+  978  2024-11-10 14:59:46 chmod 775 *
+ 1001  2024-11-10 15:21:23 history >> ~/majstaf/metsys/polybar_setup_from_source_20241110.txt
+
