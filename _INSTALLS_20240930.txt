@@ -1,0 +1,40 @@
+  918  2024-09-30 07:17:35 cd .fonts/
+  919  2024-09-30 07:17:43 cd UbuntuMono/
+  920  2024-09-30 07:18:04 cp ~/Downloads/RobotoMono.zip .
+  921  2024-09-30 07:18:08 unzip RobotoMono.zip
+  922  2024-09-30 07:18:46 mkdir RobotoMonoNerd
+  923  2024-09-30 07:18:55 mv *.ttf RobotoMonoNerd
+  925  2024-09-30 07:19:16 sudo fc-cacfe -fv
+  926  2024-09-30 07:19:35 rm RobotoMono.zip 
+  927  2024-09-30 07:19:59 cd .config/i3/
+  928  2024-09-30 07:23:19 sudo apt install color-picker
+  930  2024-09-30 07:23:34 sudo apt install acpi
+  933  2024-09-30 07:25:08 sudo apt purge i3blocks
+  934  2024-09-30 07:25:25 cd Downloads/
+  935  2024-09-30 07:25:37 git clone https://github.com/Airblader/i3blocks-gaps.git
+  936  2024-09-30 07:25:42 cd i3blocks-gaps/
+  937  2024-09-30 07:25:47 make clean all
+  938  2024-09-30 07:25:53 sudo make install
+  939  2024-09-30 07:26:08 cd ~/.config/i3/
+  942  2024-09-30 07:28:03 mv ~/Downloads/i3blocks-gaps/ ~/.config/
+  945  2024-09-30 07:28:14 cd ~/.config/
+  946  2024-09-30 07:28:43 git clone https://github.com/vivien/i3blocks-contrib.git
+  947  2024-09-30 07:29:51 mv i3blocks-gaps/ i3blocks
+  948  2024-09-30 07:29:57 cd i3blocks
+  952  2024-09-30 07:30:36 mv i3blocks-contrib/ i3blocks/scripts
+  953  2024-09-30 07:30:46 cd i3blocks/
+  959  2024-09-30 07:31:59 mv ./i3blocks-contrib scripts
+  964  2024-09-30 07:36:55 wget https://raw.githubusercontent.com/r-gregor/dotfiles_jbe/refs/heads/main/.config/i3blocks/config
+  965  2024-09-30 07:37:26 wget https://raw.githubusercontent.com/r-gregor/dotfiles_jbe/refs/heads/main/.config/i3blocks/i3blocks-contrib_github_url_20240929.txt
+  966  2024-09-30 07:41:30 cd i3/
+  967  2024-09-30 07:41:33 vim config
+  968  2024-09-30 07:42:30 cp -r i3blocks/ ~/majstaf/mdbgit/dotfiles_mdb/.config/
+  982  2024-09-30 07:44:55 cp -r .fonts ~/majstaf/mdbgit/dotfiles_mdb/
+  983  2024-09-30 07:44:58 cd ~/majstaf/mdbgit/dotfiles_mdb/
+  984  2024-09-30 07:45:46 cd .config/i3blocks/
+  986  2024-09-30 07:45:59 find -type d -iname ".git"
+  987  2024-09-30 07:46:21 mv scripts/{.,dot_}git 
+  988  2024-09-30 07:46:30 mv .git dot_git
+  993  2024-09-30 07:48:22 cp -i ~/.config/i3/config ~/majstaf/mdbgit/dotfiles_mdb/.config/i3/
+  994  2024-09-30 07:48:26 cd ~/majstaf/mdbgit/dotfiles_mdb/.config/i3/
+ 1002  2024-09-30 17:09:32 history | grep 2024-09-30 >> majstaf/metsys/_INSTALLS_20240930.txt
