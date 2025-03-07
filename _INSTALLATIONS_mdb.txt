@@ -1,0 +1,319 @@
+  309  2023-11-16 02:42:20 cd .vim
+  310  2023-11-16 02:42:26 cd plugged/
+  311  2023-11-16 02:42:39 rm -r fzf.vim
+  312  2023-11-16 02:43:02 rm -r ranger.vim/ vim-rainbow/ nerdtree/
+  313  2023-11-16 02:43:10 sudo apt install ranger
+  314  2023-11-16 02:43:38 rm -r vim-code-dark/
+  ---
+  350  2023-11-16 22:50:21 sudo apt install kitty
+  378  2023-11-16 22:50:21 sudo apt install vim
+  380  2023-11-16 22:50:21 sudo apt install git
+  381  2023-11-16 22:50:21 cd majstaf/
+  382  2023-11-16 22:50:21 mkdir BRISI
+  383  2023-11-16 22:50:21 cd BRISI/
+  384  2023-11-16 22:50:21 git clone https://github.com/r-gregor/d_metsys.git
+  385  2023-11-16 22:50:21 cd d_metsys/dotfiles_d/
+  390  2023-11-16 22:50:21 sudo apt install fzf
+  397  2023-11-16 02:51:22 sudo apt install plank
+  402  2023-11-16 07:35:38 sudo apt install build-essential
+  406  2023-11-16 07:42:13 vim alacritty_how-to-install_20231116.txt
+  407  2023-11-16 07:43:38 mkdir -p ~/.tmp
+  422  2023-11-16 07:37:04 sudo add-apt-repository ppa:mmstick76/alacritty
+  423  2023-11-16 07:38:35 sudo apt install cmake pkg-config libfreetype6-dev libfontconfig1-dev libxcb-xfixes0-dev libxkbcommon-dev python3
+  424  2023-11-16 07:38:47 cd Downloads/
+  425  2023-11-16 07:39:00 git clone https://github.com/alacritty/alacritty.git
+  426  2023-11-16 07:39:48 cd alacritty/
+  427  2023-11-16 07:40:05 sudo apt install cargo
+  429  2023-11-16 07:51:26 sudo tic -xe alacritty,alacritty-direct extra/alacritty.info
+  430  2023-11-16 07:52:02 sudo cp target/release/alacritty /usr/local/bin/
+  434  2023-11-16 07:54:22 sudo apt install curl
+  435  2023-11-16 07:54:26 curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
+  436  2023-11-16 07:55:16 cargo build --release
+  437  2023-11-16 07:55:32 rustc --version
+  ---
+  450  2023-11-16 16:36:13 cd .local/
+  451  2023-11-16 16:36:13 mkdir bin
+  453  2023-11-16 16:36:13 sudo apt install vim
+  454  2023-11-16 16:36:13 vim
+  455  2023-11-16 16:36:13 sudo apt install git
+  456  2023-11-16 16:36:13 mkdir BRISI
+  ---
+  527  2023-11-16 16:48:32 vim .config/kitty/kitty.conf
+  528  2023-11-16 16:49:05 kitty
+  548  2023-11-16 17:00:39 less d_metsys_git/d_metsys_source/d_setups/metsys_muadib/dark-glass-dock-theme-for-plank-dock_setup_20230124.txt
+  549  2023-11-16 17:01:02 cd /home/rgregor/.local/share/plank/theme
+  550  2023-11-16 17:01:15 mkdir -p /home/rgregor/.local/share/plank/theme
+  551  2023-11-16 17:02:01 cp -r ~/Downloads/dark_glas/darkGlass ~/.local/share/plank/theme/
+  552  2023-11-16 17:02:20 cd ~/.local/share/plank/theme/
+  554  2023-11-16 17:02:41 cp -r ../theme/darkGlass .
+  560  2023-11-16 17:15:15 cp majstaf/coding/C_Cpp_d/c_d_testing/cd_OSTALO/TsodingDaily_code/nn.h/fonts/iosevka-regular.ttf ~/.local/share/fonts/
+  561  2023-11-16 17:15:45 mv ~/.local/share/fonts/ ~/.fonts
+  564  2023-11-16 17:16:54 cd .fonts/
+  566  2023-11-16 17:17:20 cp ~/majstaf/coding/C_Cpp_d/c_d_testing/cd_OSTALO/TsodingDaily_code/nn.h/fonts/iosevka-regular.ttf ~/.fonts/
+  570  2023-11-16 17:20:07 sudo apt install font-manager
+  573  2023-11-16 17:02:01 cp -r ~/Downloads/dark_glas/darkGlass ~/.local/share/plank/theme/
+  589  2023-11-16 17:20:07 sudo apt install font-manager
+  591  2023-11-16 17:24:24 sudo apt install dmenu
+  592  2023-11-16 17:24:36 dmenu_run &
+  605  2023-11-16 17:28:37 softlink1-fname-to-ulb rename-to-basename-with-new-ext
+  608  2023-11-16 17:29:15 softlink1-fname-to-ulb renamedir-from-d-to-n
+  609  2023-11-16 17:29:19 softlink1-fname-to-ulb renamedir-from-n-to-d
+  610  2023-11-16 17:29:24 softlink1-fname-to-ulb renamedir-to-BRISI
+  ---
+  629  2023-11-16 17:25:04 softlink1-fname-to-ulb pwf
+  631  2023-11-16 17:25:39 softlink1-fname-to-ulb ffn
+  663  2023-11-16 17:34:37 dkdb status
+  665  2023-11-16 17:35:50 cd ~/majstaf/d_metsys_git/d_metsys_source/dotfiles_d/.vim/plugged/fzf.vim/
+  666  2023-11-16 17:35:59 mv .git .dot_git
+  667  2023-11-16 17:36:05 dmts status
+  668  2023-11-16 17:36:10 dmts add .
+  671  2023-11-16 17:36:35 dmts remote -v
+  672  2023-11-16 17:36:50 cd majstaf/majbin/
+  674  2023-11-16 17:37:32 find -iname "dmts_*"
+  675  2023-11-16 17:37:43 cd majstaf/majbin/git-commands/
+  676  2023-11-16 17:37:53 softlink1-fname-to-ulb dkdb_push_all
+  677  2023-11-16 17:37:58 softlink1-fname-to-ulb dmts_push_all
+  678  2023-11-16 17:38:02 softlink1-fname-to-ulb dvol_push_all
+  679  2023-11-16 17:38:23 dmts commit -m "big update 20231116"
+  686  2023-11-16 17:42:14 mv ~/.ssh/known_hosts{,.ORIGINAL}
+  687  2023-11-16 17:42:25 cp -r ./* ~/.ssh/
+  688  2023-11-16 17:43:03 chmod 700 ~/.ssh
+  688  2023-11-16 17:43:03 chmod 600 ~/.ssh/*
+  689  2023-11-16 17:43:11 dmts
+  690  2023-11-16 17:43:14 dmts_push_all
+  695  2023-11-16 17:44:29 vim config
+  696  2023-11-16 17:45:16 sudo reboot
+  697  2023-11-16 17:26:11 cd ~/Dropbox/
+  770  2023-11-16 17:55:52 dkdb commit -m "big update after reinstall 20231116"
+  771  2023-11-16 17:56:09 dkdb remote -v
+  772  2023-11-16 17:56:26 dkdb pull ghkdb master
+  773  2023-11-16 17:56:30 dkdb pull ghkdb main
+  774  2023-11-16 17:56:53 dkdb_push_all
+  775  2023-11-16 17:57:42 dkdb commit -m "updated fzf (.git) 20231116"
+  776  2023-11-16 17:58:25 dmts ad .
+  777  2023-11-16 17:58:47 dmts add d_dotfiles/.vim/plugged/fzf
+  778  2023-11-16 18:00:05 dmts comm
+  779  2023-11-16 18:00:24 dmts restore d_dotfiles/.vim/plugged/fzf
+  780  2023-11-16 18:01:19 cd majstaf/d_metsys_git/d_metsys_source/
+  783  2023-11-16 18:02:16 dmts commit -m "another update 20231116"
+  784  2023-11-16 18:02:32 dkdb status
+  785  2023-11-16 18:02:45 dkdb add .
+  786  2023-11-16 18:02:50 dvol add .
+  787  2023-11-16 18:03:16 dvol commit -m "Big update after reinstall 20231116"
+  788  2023-11-16 18:03:21 dvol_push_all
+  789  2023-11-16 18:03:30 dvol status
+  790  2023-11-16 18:03:55 softlink1-fname-to-ulb ~/majstaf/majbin/hstl
+  794  2023-11-16 18:08:20 vim ssh_git_acces_error_fix_20230111.txt
+  798  2023-11-16 18:09:45 cd ~/majstaf/d_metsys_git/d_metsys_source/metsys_d/
+##############################################################################################
+  799  2023-11-16 18:10:07 mv ssh_* metsys_muadib/
+  800  2023-11-16 18:10:18 chmod 644 find_fzf_vim_error_fix_20231024.txt
+  801  2023-11-16 18:10:45 dmts add .
+  802  2023-11-16 18:10:46 dmts status
+  803  2023-11-16 18:11:17 dmts commit -m "metsys update 20231116"
+  804  2023-11-16 18:11:21 dmts_push_all
+  805  2023-11-16 18:11:37 cd /var/crash/
+  806  2023-11-16 18:11:46 sudo rm _usr_bin_xfce4-panel.1000.crash
+  807  2023-11-16 18:12:22 groups
+  808  2023-11-16 18:12:43 usermod -aG sudo rgregor
+  809  2023-11-16 18:12:48 sudo usermod -aG sudo rgregor
+  810  2023-11-16 18:12:48 sudo usermod -aG sudo rgregor
+  811  2023-11-16 18:13:36 echo $EDITOR
+  812  2023-11-16 18:13:39 echo $EDIT
+  813  2023-11-16 18:13:50 cd majstaf/metsys_muadib/
+  814  2023-11-16 18:14:01 grep -r sudoer ./*
+  815  2023-11-16 18:14:16 grep -r sudo ./*
+  816  2023-11-16 18:14:30 grep -r '(all)' ./*
+  817  2023-11-16 18:14:40 grep -r 'NOPASS' ./*
+  818  2023-11-16 18:15:07 sudo visudo
+  819  2023-11-16 18:16:07 sudo apt update
+  820  2023-11-16 18:17:57 sudo vim /etc/sudoers
+  821  2023-11-16 18:18:55 sudo apt update
+  822  2023-11-16 18:13:39 echo $EDIT
+  823  2023-11-16 18:14:01 grep -r sudoer ./*
+  824  2023-11-16 18:14:16 grep -r sudo ./*
+  825  2023-11-16 18:14:30 grep -r '(all)' ./*
+  826  2023-11-16 18:14:40 grep -r 'NOPASS' ./*
+  827  2023-11-16 18:15:07 sudo visudo
+  828  2023-11-16 18:16:07 sudo apt update
+  829  2023-11-16 18:17:57 sudo vim /etc/sudoers
+  830  2023-11-16 18:18:55 sudo apt update
+  831  2023-11-16 19:06:02 cd majstaf/
+  832  2023-11-16 19:06:06 cd metsys_muadib/
+  833  2023-11-16 19:06:13 ls | grep -i firefox
+  834  2023-11-16 19:06:47 vim firefox_how_to_install_from_mozilla_NOT_as_snap_20231116.txt
+  835  2023-11-16 19:07:23 rewrapp ~/majstaf/majbin/rewrapp
+  836  2023-11-16 19:07:29 vim ~/majstaf/majbin/rewrapp
+  837  2023-11-16 19:07:51 softlink1-fname-to-ulb ~/majstaf/majbin/rewrapp
+  838  2023-11-16 19:08:02 cd ~/majstaf/majbin/
+  839  2023-11-16 19:08:14 cd -
+  840  2023-11-16 19:08:36 cd ~/majstaf/BRISI/
+  841  2023-11-16 19:08:50 cd d_metsys/majbin_d/
+  842  2023-11-16 19:09:09 cp rewrapp ~/majstaf/majmedia/
+  843  2023-11-16 19:09:18 chmod 755 rewrapp
+  844  2023-11-16 19:09:22 softlink1-fname-to-ulb rewrapp
+  845  2023-11-16 19:09:53 ll ~/.local/bin/rewrapp
+  846  2023-11-16 19:10:29 cd majstaf/majbin/
+  847  2023-11-16 19:10:31 l
+  848  2023-11-16 19:11:01 cd ~/majstaf/majmedia/
+  849  2023-11-16 19:11:10 cp rewrapp ~/majstaf/majbin/
+  850  2023-11-16 19:11:14 cd
+  851  2023-11-16 19:11:25 cd majstaf/BRISI/
+  852  2023-11-16 19:12:00 rewrapp ~/majstaf/metsys_muadib/firefox_how_to_install_from_mozilla_NOT_as_snap_20231116.txt
+  853  2023-11-16 19:12:45 rewrapp ~/majstaf/metsys_muadib/firefox_how_to_install_from_mozilla_NOT_as_snap_20231116.txt
+  854  2023-11-16 19:12:49 vim ~/majstaf/metsys_muadib/firefox_how_to_install_from_mozilla_NOT_as_snap_20231116.txt
+  855  2023-11-16 19:13:10 vim ~/.local/bin/rewrapp
+  856  2023-11-16 19:13:34 sudo apt install dos2unix
+  857  2023-11-16 19:13:41 sudo apt install fmt
+  858  2023-11-16 19:14:00 cd majstaf/metsys_muadib/
+  859  2023-11-16 19:14:09 rewrapp firefox_how_to_install_from_mozilla_NOT_as_snap_20231116.txt
+  860  2023-11-16 19:14:16 vim firefox_how_to_install_from_mozilla_NOT_as_snap_20231116.txt
+  861  2023-11-16 19:15:28 cp firefox_how_to_install_from_mozilla_NOT_as_snap_20231116.txt firefox_install_ppa.sh
+  862  2023-11-16 19:15:33 vim firefox_install_ppa.sh
+  863  2023-11-16 19:17:26 sudo reboot
+  864  2023-11-16 22:34:36 la
+  865  2023-11-16 22:35:08 less /tmp/Alacritty-17560.log
+  866  2023-11-16 19:12:00 rewrapp ~/majstaf/metsys_muadib/firefox_how_to_install_from_mozilla_NOT_as_snap_20231116.txt
+  867  2023-11-16 19:12:45 rewrapp ~/majstaf/metsys_muadib/firefox_how_to_install_from_mozilla_NOT_as_snap_20231116.txt
+  868  2023-11-16 19:12:49 vim ~/majstaf/metsys_muadib/firefox_how_to_install_from_mozilla_NOT_as_snap_20231116.txt
+  869  2023-11-16 19:13:10 vim ~/.local/bin/rewrapp
+  870  2023-11-16 19:13:34 sudo apt install dos2unix
+  871  2023-11-16 19:13:41 sudo apt install fmt
+  872  2023-11-16 19:14:09 rewrapp firefox_how_to_install_from_mozilla_NOT_as_snap_20231116.txt
+  873  2023-11-16 19:14:16 vim firefox_how_to_install_from_mozilla_NOT_as_snap_20231116.txt
+  874  2023-11-16 19:15:28 cp firefox_how_to_install_from_mozilla_NOT_as_snap_20231116.txt firefox_install_ppa.sh
+  875  2023-11-16 19:15:33 vim firefox_install_ppa.sh
+  876  2023-11-16 19:17:26 sudo reboot
+  877  2023-11-16 19:18:05 cd majstaf/metsys_muadib/
+  878  2023-11-16 19:18:15 chmod 775 firefox_install_ppa.sh
+  879  2023-11-16 19:18:19 ./firefox_install_ppa.sh
+  880  2023-11-16 19:20:34 firefox
+  881  2023-11-16 19:25:04 cargo upgrade
+  882  2023-11-16 19:25:10 cargo update
+  883  2023-11-16 19:25:29 rustup upgrade cargo
+  884  2023-11-16 19:25:36 rustup upgrade help
+  885  2023-11-16 19:25:41 rustup help
+  886  2023-11-16 19:25:49 rustup update
+  887  2023-11-16 19:26:07 cargo --version
+  888  2023-11-16 19:26:24 cd
+  889  2023-11-16 19:26:28 cd alacritty/
+  890  2023-11-16 22:18:25 la
+  891  2023-11-16 22:18:31 cd ..
+  892  2023-11-16 22:18:42 mv alacritty/ alacritty_staro
+  893  2023-11-16 22:18:45 git clone https://github.com/jwilm/alacritty.git
+  894  2023-11-16 22:19:01 cd alacritty
+  895  2023-11-16 22:19:14 cargo build --release
+  896  2023-11-16 22:29:27 sudo tic -xe alacritty,alacritty-direct extra/alacritty.info
+  897  2023-11-16 22:30:23 infocmp alacritty
+  898  2023-11-16 22:30:36 sudo cp extra/logo/alacritty-term.svg /usr/share/pixmaps/Alacritty.svg
+  899  2023-11-16 22:30:47 sudo desktop-file-install extra/linux/Alacritty.desktop
+  900  2023-11-16 22:30:59 sudo update-desktop-database
+  901  2023-11-16 22:31:12 echo "source $(pwd)/extra/completions/alacritty.bash" >> ~/.bashrc
+  902  2023-11-16 22:33:04 echo $PATH
+  903  2023-11-16 22:33:22 cd target/
+  904  2023-11-16 22:33:25 cd release/
+  905  2023-11-16 22:33:35 cp alacritty /usr/local/bin/
+  906  2023-11-16 22:33:40 sudo cp alacritty /usr/local/bin/
+  907  2023-11-16 22:34:09 alacritty migrate
+  908  2023-11-16 22:34:15 alacritty
+  909  2023-11-16 19:11:14 cd
+  ---
+  914  2023-11-16 19:13:34 sudo apt install dos2unix
+  917  2023-11-16 19:14:16 vim firefox_how_to_install_from_mozilla_NOT_as_snap_20231116.txt
+  918  2023-11-16 19:15:28 cp firefox_how_to_install_from_mozilla_NOT_as_snap_20231116.txt firefox_install_ppa.sh
+  ---
+  956  2023-11-16 22:46:37 wget "https://raw.githubusercontent.com/junegunn/fzf/master/shell/completion.bash"
+  957  2023-11-16 22:47:01 sudo cp completion.bash /usr/share/doc/fzf/
+  967  2023-11-16 22:48:57 alacritty migrate
+  971  2023-11-16 22:51:13 sudo apt install xclip
+  972  2023-11-16 22:51:19 vim /tmp/Alacritty-1869.log
+  ---
+  979  2023-11-16 22:57:38 sudo apt remove --purge vim
+  980  2023-11-16 22:57:51 sudo apt autoremove
+  981  2023-11-16 22:58:11 sudo apt install vim-gtk3
+  ---
+  982  2023-11-16 22:58:24 vim --version
+  983  2023-11-16 22:58:32 vim --version | grep clip
+  984  2023-11-16 22:58:44 vim .vimrc
+  985  2023-11-16 22:59:13 hstl
+  ---
+  149  2023-12-11 19:20:08 sudo apt install arandr
+  346  2023-12-11 19:20:08 sudo apt install arandr
+  347  2023-12-11 19:23:53 sudo apt install lxtask
+  966  2023-12-15 07:36:03 history | grep install >> commands_installs_20231116.txt
+  ---
+  929  2024-09-23 07:15:58 cargo install --locked zellij
+  944  2024-09-23 07:32:09 mkdir ~/.config/zellij
+  945  2024-09-23 07:32:18 zellij setup --dump-config > ~/.config/zellij/config.kdl
+  946  2024-09-23 07:32:23 vim ~/.config/zellij/config.kdl
+  957  2024-09-24 07:04:09 /usr/lib/apt/apt-helper download-file https://debian.sur5r.net/i3/pool/main/s/sur5r-keyring/sur5r-keyring_2024.03.04_all.deb keyring.deb SHA256:f9bb4340b5ce0ded29b7e014ee9ce788006e9bbfe31e96c09b2118ab91fca734
+  958  2024-09-24 07:04:19 sudo apt install ./keyring.deb
+  959  2024-09-24 07:04:30 echo "deb http://debian.sur5r.net/i3/ $(grep '^DISTRIB_CODENAME=' /etc/lsb-release | cut -f2 -d=) universe" | sudo tee /etc/apt/sources.list.d/sur5r-i3.list
+  960  2024-09-24 07:04:37 sudo apt update
+  961  2024-09-24 07:04:51 sudo apt install i3
+  962  2024-09-24 07:05:04 i3 --version
+  963  2024-09-24 07:06:25 mkdir -p majstaf/metsys/i3_setup_2024
+  964  2024-09-24 07:06:39 vim majstaf/metsys/i3_setup_2024/i3_setup_20240924.txt
+  965  2024-09-24 07:08:40 vim ~/.config/alacritty/alacritty.toml
+  969  2024-09-24 07:15:48 vim .config/i3/config
+  981  2024-09-24 07:21:52 sudo apt install i3blocks
+  984  2024-09-24 07:25:02 vim .config/i3/config
+  918  2024-09-24 17:46:39 vim commands_installs_20231116.txt
+  920  2024-09-24 17:50:41 mv commands_installs_20231116.txt _INSTALLATIONS.txt
+  ---
+  918  2024-09-30 07:17:35 cd .fonts/
+  919  2024-09-30 07:17:43 cd UbuntuMono/
+  920  2024-09-30 07:18:04 cp ~/Downloads/RobotoMono.zip .
+  921  2024-09-30 07:18:08 unzip RobotoMono.zip
+  922  2024-09-30 07:18:46 mkdir RobotoMonoNerd
+  923  2024-09-30 07:18:55 mv *.ttf RobotoMonoNerd
+  925  2024-09-30 07:19:16 sudo fc-cacfe -fv
+  926  2024-09-30 07:19:35 rm RobotoMono.zip 
+  927  2024-09-30 07:19:59 cd .config/i3/
+  928  2024-09-30 07:23:19 sudo apt install color-picker
+  930  2024-09-30 07:23:34 sudo apt install acpi
+  933  2024-09-30 07:25:08 sudo apt purge i3blocks
+  934  2024-09-30 07:25:25 cd Downloads/
+  935  2024-09-30 07:25:37 git clone https://github.com/Airblader/i3blocks-gaps.git
+  936  2024-09-30 07:25:42 cd i3blocks-gaps/
+  937  2024-09-30 07:25:47 make clean all
+  938  2024-09-30 07:25:53 sudo make install
+  939  2024-09-30 07:26:08 cd ~/.config/i3/
+  942  2024-09-30 07:28:03 mv ~/Downloads/i3blocks-gaps/ ~/.config/
+  945  2024-09-30 07:28:14 cd ~/.config/
+  946  2024-09-30 07:28:43 git clone https://github.com/vivien/i3blocks-contrib.git
+  947  2024-09-30 07:29:51 mv i3blocks-gaps/ i3blocks
+  948  2024-09-30 07:29:57 cd i3blocks
+  952  2024-09-30 07:30:36 mv i3blocks-contrib/ i3blocks/scripts
+  953  2024-09-30 07:30:46 cd i3blocks/
+  959  2024-09-30 07:31:59 mv ./i3blocks-contrib scripts
+  964  2024-09-30 07:36:55 wget https://raw.githubusercontent.com/r-gregor/dotfiles_jbe/refs/heads/main/.config/i3blocks/config
+  965  2024-09-30 07:37:26 wget https://raw.githubusercontent.com/r-gregor/dotfiles_jbe/refs/heads/main/.config/i3blocks/i3blocks-contrib_github_url_20240929.txt
+  966  2024-09-30 07:41:30 cd i3/
+  967  2024-09-30 07:41:33 vim config
+  968  2024-09-30 07:42:30 cp -r i3blocks/ ~/majstaf/mdbgit/dotfiles_mdb/.config/
+  982  2024-09-30 07:44:55 cp -r .fonts ~/majstaf/mdbgit/dotfiles_mdb/
+  983  2024-09-30 07:44:58 cd ~/majstaf/mdbgit/dotfiles_mdb/
+  984  2024-09-30 07:45:46 cd .config/i3blocks/
+  986  2024-09-30 07:45:59 find -type d -iname ".git"
+  987  2024-09-30 07:46:21 mv scripts/{.,dot_}git 
+  988  2024-09-30 07:46:30 mv .git dot_git
+  993  2024-09-30 07:48:22 cp -i ~/.config/i3/config ~/majstaf/mdbgit/dotfiles_mdb/.config/i3/
+  994  2024-09-30 07:48:26 cd ~/majstaf/mdbgit/dotfiles_mdb/.config/i3/
+ 1002  2024-09-30 17:09:32 history | grep 2024-09-30 >> majstaf/metsys/_INSTALLS_20240930.txt
+---
+   26  2024-10-02 07:33:47 sudo apt install htop
+  272  2024-10-03 07:27:55 sudo apt install feh
+  346  2024-10-10 15:31:01 sudo apt install cpu-checker
+  147  2024-10-22 17:12:51 sudo apt reinstall git
+  795  2024-11-10 10:18:04 sudo apt install volumeicon-alsa 
+  800  2024-11-10 10:23:10 sudo apt install polybar 
+  839  2024-11-10 10:38:50 sudo apt install acpi
+  160  2024-11-10 14:16:07 sudo apt install build-essential git cmake cmake-data pkg-config python3-sphinx python3-packaging libuv1-dev libcairo2-dev libxcb1-dev libxcb-util0-dev libxcb-randr0-dev libxcb-composite0-dev python3-xcbgen xcb-proto libxcb-image0-dev libxcb-ewmh-dev libxcb-icccm4-dev
+  162  2024-11-10 14:16:40 sudo apt install libxcb-xkb-dev libxcb-xrm-dev libxcb-cursor-dev libasound2-dev libpulse-dev i3-wm libjsoncpp-dev libmpdclient-dev libcurl4-openssl-dev libnl-genl-3-dev
+  146  2024-11-20 22:47:42 sudo apt install libev4 libev-dev
+  910  2024-12-13 19:49:44 sudo apt install gparted
+  941  2024-12-15 11:59:05 sudo apt install lxpolkit
+  946  2024-12-15 19:05:47 sudo apt install exfat-fuse exfatprogso
+---
+

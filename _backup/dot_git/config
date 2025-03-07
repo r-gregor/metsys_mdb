@@ -1,0 +1,11 @@
+[core]
+	repositoryformatversion = 0
+	filemode = true
+	bare = false
+	logallrefupdates = true
+[remote "ghmdb"]
+	url = git@github.com:r-gregor/metsys_mdb.git
+	fetch = +refs/heads/*:refs/remotes/ghmdb/*
+[remote "glmdb"]
+	url = git@gitlab.com:r-gregor/metsys_mdb.git
+	fetch = +refs/heads/*:refs/remotes/glmdb/*

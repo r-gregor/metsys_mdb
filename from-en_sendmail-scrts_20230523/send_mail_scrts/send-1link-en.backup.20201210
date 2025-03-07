@@ -1,0 +1,94 @@
+#! /usr/bin/env python3
+### (PYTHON3 !!)
+
+### CHANGELOG:
+### -----------------------------------------------------------------------------
+### 20170220 ---
+### added test if URL ends with '/' -- remove (no need to watch for URL ending
+### when entering the URL
+### -----------------------------------------------------------------------------
+
+
+# importing python modules:
+import smtplib
+import os
+import argparse
+import sys
+import datetime as dt
+
+
+# timestamp
+def tms():
+    return dt.datetime.now().strftime('%Y%m%d_%H%M%S')
+
+
+# import local email settings:
+import send_config_en as scn
+
+from email.mime.multipart import MIMEMultipart
+from email.mime.text import MIMEText
+
+# DO NOT! clear the screen: (updated 20171204)
+# os.system('clear')
+
+# START
+print("[ {} ] Started: {}".format(tms(), sys.argv[0]))
+
+
+# argnum check:
+gr_ARGNUM = len(sys.argv)
+if gr_ARGNUM != 2:
+    print("[ {} ] There should be exactly 1(one) argument: URL".format(tms()))
+
+# Parsing argument: url:
+parser = argparse.ArgumentParser()
+parser.add_argument('url', help = "Exactly 1(one) argument: URL")
+args = parser.parse_args()
+
+gr_URL = args.url
+
+if gr_URL.endswith('/'):
+    print("[ {} ] Stripping ending / ...".format(tms()))
+    gr_URL = gr_URL.rstrip('/')
+
+print("[ {} ] URL = {}".format(tms(), gr_URL))
+
+gr_3w, gr_FJL = gr_URL.rsplit('/', 1)
+
+# print("gr_3w = ", gr_3w)
+# print("gr_FJL = ", gr_FJL)
+
+if ('.' in gr_FJL):
+	gr_NM, gr_ext = gr_FJL.rsplit('.')
+else:
+	gr_NM = gr_FJL
+
+# print("gr_NM = ", gr_NM)
+
+gr_TJTL = str(gr_NM.replace('-', ' '))
+gr_SBJ = gr_TJTL.capitalize()
+gr_BDYF = gr_SBJ + ":\n" + str(gr_URL)
+
+print("[ {} ] Subject: {}".format(tms(), gr_SBJ))
+
+# Composing a email message: header + body ...
+gr_MSGF = MIMEMultipart()
+gr_MSGF['From'] = scn.gr_FROM
+gr_MSGF['To'] = ', '.join(scn.gr_TO)
+# gr_MSGF['To'] = scn.gr_TO
+
+gr_MSGF['Subject'] = str(gr_SBJ)
+
+gr_MSGF.attach(MIMEText(gr_BDYF, 'plain'))
+
+# send email:
+print("[ {} ] SENDING MAIL ...".format(tms()))
+
+server = smtplib.SMTP(scn.gr_SRV, scn.gr_PORT)
+server.starttls()
+server.login(scn.gr_UNM, scn.gr_PSWD)
+gr_TXT = gr_MSGF.as_string()
+server.sendmail(scn.gr_FROM, scn.gr_TO, gr_TXT)
+server.quit()
+print("[ {} ] DONE!\n".format(tms()))
+
