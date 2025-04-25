@@ -1,0 +1,9 @@
+# zoxide-setup-20250425.txt
+# inastall:
+$> sudo apt install zoxide
+
+# enable
+# add to .bashrc:
+eval "$(zoxide init bash)"
+
+
