@@ -1,0 +1,2 @@
+exo-open /usr/share/applications/gparted.desktop &>/dev/null & disown
+
