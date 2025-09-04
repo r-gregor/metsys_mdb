@@ -1,4 +1,6 @@
 #! /usr/bin/env bash
+#
+# 5+
 
 if [ $# -ne 3 ]; then
 	echo -e "\n\tusage: <filename.c>  <start_pos>  <subs_len>"

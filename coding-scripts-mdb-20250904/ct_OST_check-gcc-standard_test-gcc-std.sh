@@ -1,4 +1,6 @@
 #!/usr/bin/env bash
+#
+# 5+
 
 for std in c89 c99 c11 c17 c2x gnu89 gnu99 gnu11 gnu17; do
 	echo $std

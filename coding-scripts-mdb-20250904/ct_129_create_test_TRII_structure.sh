@@ -1,4 +1,6 @@
 #! /usr/bin/env bash
+#
+# 5+
 
 if [ ! -d "../TRII" ]; then
 	mkdir -pv TRII/subtrii_1/{dir_1,dir_2}
