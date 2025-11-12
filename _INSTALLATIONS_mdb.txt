@@ -316,4 +316,11 @@
   941  2024-12-15 11:59:05 sudo apt install lxpolkit
   946  2024-12-15 19:05:47 sudo apt install exfat-fuse exfatprogso
 ---
+  956  2025-11-02 14:56:22 sudo apt install bat
+---
+  906  2025-11-03 19:12:03 curl -L https://sw.kovidgoyal.net/kitty/installer.sh | sh /dev/stdin
+  910  2025-11-03 19:14:05 sudo mv /usr/bin/kitty{,.old}
+  917  2025-11-03 19:16:12 sudo ln -s ~/.local/kitty.app/bin/kitty /usr/bin/kitty
+  918  2025-11-03 19:16:24 sudo ln -s ~/.local/kitty.app/bin/kitten /usr/bin/kitten
+---
 
