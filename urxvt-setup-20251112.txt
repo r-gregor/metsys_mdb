@@ -52,5 +52,15 @@ ufsc 0
 ufsc 2
 ufsc 1
 vim majstaf/majbin/urxvt-font-size/ufsc
+
+---
+faze-2:
+IT WORKS WITH '+/-' ON THE KEYBOARD (not on the right numeric keypad!)
+1 - wget https://raw.githubusercontent.com/simmel/urxvt-resize-font/refs/heads/master/resize-font
+2 - cp resize-font ~/.urxvt/ext/
+3 - add next line in .Xresources:
+	urxvt.perl-ext-common: resize-font
+done!
+
 ---
 
