@@ -1,0 +1,19 @@
+update error: 
+Get:48 https://ppa.launchpadcontent.net/mozillateam/ppa/ubuntu jammy/main amd64 Packages [35,5 kB]
+Err:8 https://debian.sur5r.net/i3 jammy InRelease
+  The following signatures were invalid: EXPKEYSIG E3CA1A89941C42E6 debian.sur5r.net Archive Automatic Signing Key 2015 (sur5r) <debian@sur5r.net>
+Reading package lists... Done
+E: The repository 'https://ppa.launchpadcontent.net/mmstick76/alacritty/ubuntu jammy Release' does not have a Release file.
+N: Updating from such a repository can't be done securely, and is therefore disabled by default.
+N: See apt-secure(8) manpage for repository creation and user configuration details.
+W: An error occurred during the signature verification. The repository is not updated and the previous index files will be used. GPG error: https://debian.sur5r.net/i3 jammy InRelease: The following signatures were invalid: EXPKEYSIG E3CA1A89941C42E6 debian.sur5r.net Archive Automatic Signing Key 2015 (sur5r) <debian@sur5r.net>
+W: http://linux.dropbox.com/ubuntu/dists/disco/Release.gpg: Key is stored in legacy trusted.gpg keyring (/etc/apt/trusted.gpg), see the DEPRECATION section in apt-key(8) for details.
+
+---
+FIX:
+sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys E3CA1A89941C42E6
+sudo apt-get update
+sudo apt-get dist-upgrade
+
+---
+
