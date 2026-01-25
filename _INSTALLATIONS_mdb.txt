@@ -318,9 +318,12 @@
 ---
   956  2025-11-02 14:56:22 sudo apt install bat
 ---
-  906  2025-11-03 19:12:03 curl -L https://sw.kovidgoyal.net/kitty/installer.sh | sh /dev/stdin
-  910  2025-11-03 19:14:05 sudo mv /usr/bin/kitty{,.old}
-  917  2025-11-03 19:16:12 sudo ln -s ~/.local/kitty.app/bin/kitty /usr/bin/kitty
-  918  2025-11-03 19:16:24 sudo ln -s ~/.local/kitty.app/bin/kitten /usr/bin/kitten
+  276  2025-11-03 19:28:47 sudo apt install cmake g++ pkg-config libfontconfig1-dev libxcb-xfixes0-dev libxkbcommon-dev
+  285  2025-11-03 19:08:41 sudo apt install kitty-terminfo
+  895  2025-11-12 17:30:55 sudo apt-get install rxvt-unicode xsel
+  248  2025-11-03 19:08:41 sudo apt install kitty-terminfo
+  858  2025-11-12 17:30:55 sudo apt-get install rxvt-unicode xsel
+---
+  945  2026-01-25 11:17:03 sudo apt install drawing
 ---
 
