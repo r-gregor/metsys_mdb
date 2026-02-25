@@ -326,4 +326,6 @@
 ---
   945  2026-01-25 11:17:03 sudo apt install drawing
 ---
+  954  2026-02-25 14:31:18 sudo apt install net-tools
+---
 
