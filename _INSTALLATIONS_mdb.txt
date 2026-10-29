@@ -331,4 +331,6 @@
   982  2026-08-24 23:10:11 sudo apt install maim    # for taking screenshots in i3
   999  2026-08-24 23:12:56 sudo apt install xdotool # for taking screenshots in i3
 ---
+  909  2026-10-29 07:26:34 sudo apt install trash-cli
+---
 
